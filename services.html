@@ -1,4 +1,13 @@
 <h2>Bagpiping Services</h2>
+<div id="navbar"></div>
+
+<script>
+    fetch('nav.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar').innerHTML = data;
+            });
+</script>
 <ul>
     <li>Weddings</li>
     <li>Funerals</li>
