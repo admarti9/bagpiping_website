@@ -7,18 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>Alasdair's Bagpiping Services</h1>
-        <div id="navbar"></div>
-
-        <script>
-            fetch('nav.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('navbar').innerHTML = data;
-                });
-        </script>
-    </header>
+    <div id="site-header"></div>
 
     <main>
         <section>
@@ -34,5 +23,7 @@
     <footer>
         <p>&copy; 2025 Alasdair Martin</p>
     </footer>
+    
+    <script src="js/load-templates.js"></script>
 </body>
 </html>
