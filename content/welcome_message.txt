@@ -1,0 +1,5 @@
+First and foremost, this site is a place to offer bagpiping services in the Charlotte, NC area.
+
+Beyond that, this space is also a personal project where I’m practicing coding and web development. You might find other content here over time — things like book reviews, audio recordings, or whatever else I’m working on. It’s a way for me to stay accountable and track what I’m learning and building.
+
+Thanks for visiting, and feel free to explore as the site evolves!
