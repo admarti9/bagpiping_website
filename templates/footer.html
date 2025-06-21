@@ -1,3 +1,7 @@
-    <footer>
-        <p>&copy; 2025 Alasdair Martin</p>
-    </footer>
+<footer>
+    <p>&copy; <span id="year"></span> Alasdair Martin</p>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
